@@ -16,8 +16,8 @@ X = np.vstack((ut,st[3:12,:]));  #layer 4
 A1 = np.matrix(np.random.rand(100,13) )
 h2 = np.matrix(np.random.rand(100,1)  )#layer 5
 A2 = np.matrix(np.random.rand(3,100) )
-at = np.matrix(np.random.rand(3,1) ) #layer 612
-alpha_t = np.matrix(np.random.rand(3,1) ) #layer 6
+at = np.matrix(np.random.rand(3,1) ) #layer 6_1
+alpha_t = np.matrix(np.random.rand(3,1) ) #layer 6_2
 
 #errors in layers
 # del_6  = (3,1)
